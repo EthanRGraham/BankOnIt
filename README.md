@@ -41,7 +41,7 @@
     Loop until user chooses “0”
     Call menu()
     
-   choice =  1 -> checkBalance()
+    choice =  1 -> checkBalance()
     2 -> makeDeposit()
     3 -> makeWithdrawal()
 
