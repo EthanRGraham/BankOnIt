@@ -33,6 +33,8 @@
 
     take in user's input and return their choice.
     implement start()
+
+    checkBalance(), makeDeposit(), and makeWithdrawal() are all called by menu choices
 ## public void start()
     new scanner(System.in)
     While keepGoing() = true
@@ -44,4 +46,13 @@
     choice =  1 -> checkBalance()
     2 -> makeDeposit()
     3 -> makeWithdrawal()
-
+## checkBalance()
+    print balance
+## makeDeposit()
+    ask for user input on how much they would like to deposit
+    and add that to the balance
+    print new balance(return balance?)
+## makeWithdrawal
+    ask for user input
+    take that input and subtrack it from the current balance. 
+    print new balance(return balance?)
